@@ -1,0 +1,24 @@
+{
+	"name": "foolz/foolfuuka-plugin-visualsage",
+	"type": "foolz-foolfuuka-plugin",
+	"description": "Visual feedback for sage posts",
+	"version": "0.3.0",
+	"keywords": ["fake", "mock"],
+	"homepage": "http://foolz.us",
+	"license": "Apache-2.0",
+	"authors": [{"name": "sph", "email": "sph@magyarchan.net"}],
+	"support": {
+		"email": "sph@magyarchan.net",
+		"irc": "irc://irc.freenode.net/magyarchan"
+	},
+
+	"require" : {
+		"foolz/plugin": "dev"
+	},
+
+	"extra": {
+		"name": "Sage visual feedback",
+		"slug": "visualsage",
+		"module": "foolfuuka"
+	}
+}
