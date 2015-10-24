@@ -13,10 +13,9 @@ class Sage
     {
       return null;
     }
-    $str2append = ' <span style="color: red">[bölcs]</span>';
-    if ($data->comment->email === 'sage')
+    if ($data->comment->email === 'sage' && $data->comment->op === '0')
     {
-      $result->setParam('name', $result->getParam('name').$str2append);
+      $result->setParam('name', $result->getParam('name').$data->radix->getValue('plugin_sage_appendtext'));
       $result->set($result->getParam('name'));
     }
     return null;
